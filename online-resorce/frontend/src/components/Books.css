@@ -1,6 +1,9 @@
 .scrolling-wrapper{
 	overflow-x: auto;
 }
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
 
 .subtitle{
 	font-size: 1.25em;
@@ -25,4 +28,5 @@
 .booklink
     {width: 80%;
     }
+
 
